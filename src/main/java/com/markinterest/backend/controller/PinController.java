@@ -17,7 +17,7 @@ import com.markinterest.backend.model.User;
 import com.markinterest.backend.service.PinService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://markinterests.netlify.app/")
 @RequestMapping("/api/pin")
 public class PinController {
 	

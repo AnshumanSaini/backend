@@ -19,7 +19,7 @@ import com.markinterest.backend.service.UserService;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://markinterests.netlify.app/")
 @RequestMapping("/api/auth")
 public class UserController {
 	@Autowired
